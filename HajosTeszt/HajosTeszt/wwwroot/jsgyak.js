@@ -22,7 +22,7 @@ window.onload = function () {
             elem.classList.add("elem")
             elem.innerText = faktoriálisR(s) /(faktoriálisR(oszlop) * faktoriálisR(s-oszlop))
             sor.appendChild(elem);
-            elem.style.color=`rgb(${255/10*s},0,${255/10*oszlop})`
+            elem.style.backgroundColor =`rgb(${255/10*s},0,${255/10*oszlop})`
         }
     }
 
