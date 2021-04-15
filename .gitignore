@@ -3,6 +3,12 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+
+
+#modelBuilder.HasAnnotation("Relational:Collation", "Hungarian_CI_AS");
+
+
+
 # User-specific files
 *.rsuser
 *.suo
